@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/ditazan/dit-sass/issues"
   },
-  "homepage": "https://github.com/ditazan/dit-sass#readme"
+  "homepage": "https://github.com/ditazan/dit-sass#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.4"
+  }
 }
