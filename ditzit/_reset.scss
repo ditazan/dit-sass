@@ -1,12 +1,14 @@
 /* reset styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,200&display=swap');
+
 * {
-    color: inherit;
+    color: $primary;
     margin: 0;
 }
 
 body {
-    font-family: Poppins;
-    background: $dark;
+    font-family: Roboto Mono;
+    background: map-get($colors, "black");
 }
 
 ul {
