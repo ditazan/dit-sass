@@ -7,84 +7,134 @@
     <title>ditzit SASS</title>
   </head>
   <body>
+    <div class="container">
+      <!-- colors -->
+      <h2 class="mt-2 mb-2">Colors</h2>
+      <span class="text-primary">primary text</span> |
+      <span class="text-secondary">secondary text</span> |
+      <span class="text-blue">blue text</span> |
+      <span class="text-red">red text</span> |
+      <span class="text-orange">orange text</span> |
+      <span class="text-yellow">yellow text</span> |
+      <span class="text-green">green text</span> |
+      <span class="text-purple">purple text</span> |
+      <span class="text-gray">gray text</span> |
+      <span class="text-error">error text</span> |
+      <span class="text-info">info text</span>
+      <br /><br />
+      <span class="bg-primary text-black">bg primary</span> |
+      <span class="bg-secondary text-black">bg secondary</span> |
+      <span class="bg-red text-black">bg red</span> |
+      <span class="bg-orange text-black">bg orange</span> |
+      <span class="bg-yellow text-black">bg yellow</span> |
+      <span class="bg-green text-black">bg green</span> |
+      <span class="bg-blue text-black">bg blue</span>|
+      <span class="bg-error text-black">bg error</span> |
+      <span class="bg-info text-black">bg info</span> |
+      <span class="bg-purple text-black">bg purple</span> |
+      <span class="bg-gray text-black">bg gray</span>
+      <br /><br />
+      <span class="bg-primary-dark-8 text-black">primary dark 8</span> |
+      <span class="bg-primary-dark-6 text-black">primary dark 6</span> |
+      <span class="bg-primary-dark-4 text-black">primary dark 4</span> |
+      <span class="bg-primary-dark-2 text-black">primary dark 2</span> |
+      <span class="bg-primary text-black">primary</span> |
+      <span class="bg-primary-light-2 text-black">primary light 2</span> |
+      <span class="bg-primary-light-4 text-black">primary light 4</span> |
+      <span class="bg-primary-light-6 text-black">primary light 6</span> |
+      <span class="bg-primary-light-8 text-black">primary light 8</span>
+      <br /><br />
+      <a href="#" class="text-primary text-hover-secondary-light-8">hover</a>
+      <br /><br />
+      <hr class="mt-4 mb-4" />
 
-    <!-- colors -->
-    <h2>Colors</h2>
-    <span class="text-primary">primary text</span> |
-    <span class="text-secondary">secondary text</span> |
-    <span class="text-blue">blue text</span> |
-    <span class="text-red">red text</span> |
-    <span class="text-orange">orange text</span> |
-    <span class="text-yellow">yellow text</span> |
-    <span class="text-green">green text</span> |
-    <span class="text-purple">purple text</span> |
-    <span class="text-gray">gray text</span> |
-    <span class="text-error">error text</span> |
-    <span class="text-info">info text</span>
-    <br /><br />
-    <span class="bg-primary text-black">bg primary</span> |
-    <span class="bg-secondary text-black">bg secondary</span> |
-    <span class="bg-red text-black">bg red</span> |
-    <span class="bg-orange text-black">bg orange</span> |
-    <span class="bg-yellow text-black">bg yellow</span> |
-    <span class="bg-green text-black">bg green</span> |
-    <span class="bg-blue text-black">bg blue</span>|
-    <span class="bg-error text-black">bg error</span> |
-    <span class="bg-info text-black">bg info</span> |
-    <span class="bg-purple text-black">bg purple</span> |
-    <span class="bg-gray text-black">bg gray</span>
-    <br /><br />
-    <span class="bg-primary-dark-8 text-black">primary dark 8</span> |
-    <span class="bg-primary-dark-6 text-black">primary dark 6</span> |
-    <span class="bg-primary-dark-4 text-black">primary dark 4</span> |
-    <span class="bg-primary-dark-2 text-black">primary dark 2</span> |
-    <span class="bg-primary text-black">primary</span> |
-    <span class="bg-primary-light-2 text-black">primary light 2</span> |
-    <span class="bg-primary-light-4 text-black">primary light 4</span> |
-    <span class="bg-primary-light-6 text-black">primary light 6</span> |
-    <span class="bg-primary-light-8 text-black">primary light 8</span>
-    <br /><br />
-    <a href="#" class="text-primary text-hover-secondary-light-8">hover</a>
-    <br /><br />
-    <hr class="mt-4 mb-4">
+      <!-- font sizes -->
+      <h2 class="mb-2">Font Sizes</h2>
+      <div class="font-sm">this is small font</div>
+      <div class="font-md">this is medium font</div>
+      <div class="font-lg">this is large font</div>
+      <div class="font-xl">this is extra large font</div>
+      <div class="font-xxl">this is extra, extra large font</div>
 
+      <hr class="mt-4 mb-4" />
+      <!-- buttons -->
+      <h2 class="mb-2">Buttons</h2>
+      <a href="#" class="btn text-white">default btn</a>
+      <a href="#" class="btn-primary text-black">click me</a>
+      <a href="#" class="btn-secondary text-black">click me</a>
+      <a href="#" class="btn-outlined-primary text-primary text-hover-black"
+        >click me</a
+      >
+      <a href="#" class="btn-outlined-secondary text-secondary text-hover-black"
+        >click me</a
+      >
+      <a href="#" class="btn-complement-primary">click me</a>
+      <a href="#" class="btn-complement-secondary">click me</a>
+      <a href="#" class="btn-error text-black">click me</a>
+      <a href="#" class="btn-info text-black">click me</a>
+      <hr class="mt-4 mb-4" />
 
-    <!-- font sizes -->
- <h2 class="mb-2">Font Sizes</h2>
-    <div class="font-sm">this is small font</div>
-    <div class="font-md">this is medium font</div>
-    <div class="font-lg">this is large font</div>
-    <div class="font-xl">this is extra large font</div>
-    <div class="font-xxl">this is extra, extra large font</div>
+      <!-- cards -->
+      <h2 class="mb-2">cards</h2>
+      <div class="card">
+        <h1 class="card-title">Card Title</h1>
+        <p class="card-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
+          dicta repudiandae obcaecati magnam qui nulla dolor vel perspiciatis,
+          nobis recusandae.
+        </p>
+      </div>
+      <hr class="mt-4 mb-4" />
 
-    <hr class="mt-4 mb-4">
-    <!-- buttons -->
-    <h2>Buttons</h2>
-    <a href="#" class="btn text-white">default btn</a>
-    <a href="#" class="btn-primary text-black">click me</a>
-    <a href="#" class="btn-secondary text-black">click me</a>
-    <a href="#" class="btn-outlined-primary text-primary text-hover-black">click me</a>
-    <a href="#" class="btn-outlined-secondary text-secondary text-hover-black">click me</a>
-    <a href="#" class="btn-complement-primary">click me</a>
-    <a href="#" class="btn-complement-secondary">click me</a>
-    <a href="#" class="btn-error text-black">click me</a>
-    <a href="#" class="btn-info text-black">click me</a>
-    <hr class="mt-4 mb-4">
+      <!-- grid system -->
+      <h2 clas="mb-2">grid system</h2>
+      <div class="row gap-2 justify-center">
 
-    <!-- cards -->
-    <h2>cards</h2>
-    <div class="card">
-      <h1 class="card-title">Card Title</h1>
-      <p class="card-body">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
-        dicta repudiandae obcaecati magnam qui nulla dolor vel perspiciatis,
-        nobis recusandae.
-      </p>
+        <div class="col-12-xs col-5-sm col-3-xl">
+          <div class="card">
+            <h3 class="card-title">hello</h3>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ad
+              harum nam corporis temporibus aliquam hic quis necessitatibus
+              tempora debitis!
+            </p>
+          </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">hello</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ad
+                harum nam corporis temporibus aliquam hic quis necessitatibus
+                tempora debitis!
+              </p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">hello</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ad
+                harum nam corporis temporibus aliquam hic quis necessitatibus
+                tempora debitis!
+              </p>
+            </div>
+          </div>
+          <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+              <h3 class="card-title">hello</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ad
+                harum nam corporis temporibus aliquam hic quis necessitatibus
+                tempora debitis!
+              </p>
+            </div>
+          </div>
+         
+      </div>
+      <hr class="mt-4 mb-4" />
+
+      <!-- utils -->
     </div>
-    <hr class="mt-4 mb-4">
-
-    <!-- grid system -->
-
-    <!-- utils -->
   </body>
 </html>
