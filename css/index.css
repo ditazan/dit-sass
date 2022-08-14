@@ -3,7 +3,7 @@
 * {
   color: #D7F171;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -3784,6 +3784,77 @@ img {
 }
 .btn-complement-white:hover {
   color: white;
+  background-color: white;
+}
+
+.navbar .container, .navbar-white .container, .navbar-black .container, .navbar-gray .container, .navbar-purple .container, .navbar-orange .container, .navbar-yellow .container, .navbar-red .container, .navbar-blue .container, .navbar-green .container, .navbar-info .container, .navbar-error .container, .navbar-dark .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-green, .navbar-info, .navbar-error, .navbar-dark, .navbar-secondary, .navbar-primary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-green, .navbar-info, .navbar-error, .navbar-dark, .navbar-secondary, .navbar-primary {
+  padding: 0.75rem 1.5rem;
+  box-shadow: 1px 3px 5px #533939;
+}
+.navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-gray .site-title, .navbar-purple .site-title, .navbar-orange .site-title, .navbar-yellow .site-title, .navbar-red .site-title, .navbar-blue .site-title, .navbar-green .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-dark .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
+  font-size: 1.5rem;
+}
+.navbar-primary {
+  background-color: #D7F171;
+}
+
+.navbar-secondary {
+  background-color: #533939;
+}
+
+.navbar-dark {
+  background-color: #292929;
+}
+
+.navbar-error {
+  background-color: rgb(204, 0, 0);
+}
+
+.navbar-info {
+  background-color: rgb(255, 217, 0);
+}
+
+.navbar-green {
+  background-color: #c8ff01;
+}
+
+.navbar-blue {
+  background-color: #8dd6db;
+}
+
+.navbar-red {
+  background-color: #e02525;
+}
+
+.navbar-yellow {
+  background-color: #e6d819;
+}
+
+.navbar-orange {
+  background-color: #ffa600;
+}
+
+.navbar-purple {
+  background-color: #a150e2;
+}
+
+.navbar-gray {
+  background-color: #808080;
+}
+
+.navbar-black {
+  background-color: black;
+}
+
+.navbar-white {
   background-color: white;
 }
 
