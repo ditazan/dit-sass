@@ -4,8 +4,8 @@
 $primary: #D7F171;
 $secondary: #533939;
 $dark: #292929;
-$error: red;
-$info: yellow;
+$error: rgb(204, 0, 0);
+$info: rgb(255, 217, 0);
 
 //color palette
 $colors: (
@@ -14,12 +14,12 @@ $colors: (
     "dark": $dark,
     "error": $error,
     "info": $info,
-    "green": #67ff01,
-    "blue": #00eeff,
-    "red": #e61919,
-    "yellow": #e6e619,
+    "green": #c8ff01,
+    "blue": #8dd6db,
+    "red": #e02525,
+    "yellow": #e6d819,
     "orange": #ffa600,
-    "purple": #9900ff,
+    "purple": #a150e2,
     "gray": #808080,
     "black": black,
     "white": white,

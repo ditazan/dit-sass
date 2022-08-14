@@ -1,9 +1,13 @@
 /* reset styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,200&display=swap');
 
+
+
 * {
     color: $primary;
-    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
 }
 
 body {
@@ -22,7 +26,7 @@ a {
 
 hr {
     border: 0;
-    border-top: 1px dotted $secondary;
+    border-top: 1px dotted $primary;
 }
 
 img {
