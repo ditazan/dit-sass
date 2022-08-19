@@ -49,6 +49,7 @@ $utilities: (
             "4": $base-margin * 6,
             "5": $base-margin * 8),
     ),
+
     "margin-left": ("prefix": "ml",
         "values": ("0": 0,
             "1": $base-margin,
@@ -109,12 +110,43 @@ $utilities: (
             "f": flex,
             "i": inline,
             "i-b": inline-block)),
+    "position": ("prefix": "pos",
+        "values": ("default": static,
+            "r": relative,
+            "f": fixed,
+            "a": absolute,
+            "s": sticky)),
     "font-size": ("prefix": "font",
         "values": ("sm": $font-size-sm,
             "md": $base-font-size,
             "lg": $font-size-lg,
             "xl": $font-size-xl,
-            "xxl": $font-size-xxl ))
+            "xxl": $font-size-xxl )),
+    "width": ("prefix":"w",
+        "values": ("100": 100%,
+            "90":90%,
+            "80":80%,
+            "75":75%,
+            "50":50%,
+            "40":40%,
+            "30":30%,
+            "25":25%,
+            "20":20%,
+            "10":10%)),
+
+    "z-index":("prefix": "z",
+        "values":("default": 1,
+            "-5":-5,
+            "-4": -4,
+            "-3":-3,
+            "-2": -2,
+            "-1": -1,
+            "0": 0,
+            "1": 1,
+            "2":2,
+            "3": 3,
+            "4": 4,
+            "5":5))
 );
 
 @each $property,
@@ -128,7 +160,9 @@ $map in $utilities {
             .#{$prefix} {
                 #{$property}: $v;
             }
-        }@else {
+        }
+
+        @else {
             .#{$prefix}-#{$k} {
                 #{$property}: $v;
             }

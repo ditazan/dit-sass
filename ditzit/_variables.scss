@@ -2,10 +2,11 @@
 
 //theme colors
 $primary: #D7F171;
-$secondary: #533939;
+$secondary: #52426d;
 $dark: #292929;
 $error: rgb(204, 0, 0);
 $info: rgb(255, 217, 0);
+$bg: black;
 
 //color palette
 $colors: (
@@ -22,7 +23,7 @@ $colors: (
     "purple": #a150e2,
     "gray": #808080,
     "black": black,
-    "white": white,
+    "white": white
 );
 
 @debug map-get($colors, "green");
@@ -36,7 +37,7 @@ $base-border-thick: 1px;
 $base-border-radius: 20px;
 
 //box shadow
-$base-box-shadow: 1px 3px 5px $secondary;
+$base-box-shadow: 1px 3px 5px $primary;
 
 //fonst sizes
 $base-font-size: 1rem;

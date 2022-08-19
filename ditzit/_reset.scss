@@ -3,6 +3,7 @@
 
 
 
+
 * {
     color: $primary;
     box-sizing: border-box;
@@ -12,7 +13,7 @@
 
 body {
     font-family: Roboto Mono;
-    background: map-get($colors, "black");
+    background:$bg;
 }
 
 ul {
